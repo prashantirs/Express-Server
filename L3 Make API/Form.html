@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <style>
+      .form-box {
+        background: rgb(195, 152, 152);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        margin: 2rem auto;
+        width: 40rem;
+      }
+      input {
+        width: 100%;
+        display: block;
+        padding: 10px 1px;
+        margin: 10px auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        height: 1.5rem;
+      }
+      button {
+        width: 50%;
+        height: 3rem;
+        display: block;
+        padding: 10px 1px;
+        margin: 10px auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        color: #ccc;
+        background: rgb(90, 60, 210);
+      }
+      button:hover {
+        background: rgb(148, 134, 204);
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="/api/v1/register" method="post">
+      <div class="form-box">
+        <div>
+          <label for="Name">Name:</label>
+          <input type="text" name="name"/> 
+        </div>
+        <div>
+          <label for="Name">Email:</label>
+          <input type="email"  name="email"/>
+        </div>
+        <div>
+          <label for="Name">Password:</label>
+          <input type="password" name="password" />
+        </div>
+        <div>
+          <button type="submit">Login</button>
+        </div>
+      </div>
+    </form>
+
+
+  </body>
+</html>

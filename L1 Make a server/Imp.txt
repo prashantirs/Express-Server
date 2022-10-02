@@ -1,0 +1,6 @@
+1. Express is a nodejs framework used to create server in less line of codes
+2. npm init
+3. npm i Express
+4. CRUD == POST GET PUT DELETE
+5. app.get("/",call back function) ---> it is a meathod 
+6. npm i body-parser --> to extract body data
